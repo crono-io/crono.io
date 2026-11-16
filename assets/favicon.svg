@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="32" height="32" fill="none" role="img" aria-label="Crono">
+  <rect width="200" height="200" rx="44" fill="#0E1116" />
+  <g stroke-width="12" stroke-linecap="butt">
+    <!-- Outer Ring (Radius 74) -->
+    <path d="M 100.0 26.0 A 74 74 0 0 0 26.4 107.7" stroke="#F2F2ED" />
+    <path d="M 29.6 122.9 A 74 74 0 0 0 40.9 144.5" stroke="#1CC8B4" />
+    <path d="M 55.5 159.1 A 74 74 0 0 0 85.9 172.6" stroke="#1CC8B4" />
+    <path d="M 114.1 172.6 A 74 74 0 0 0 172.1 116.6" stroke="#1CC8B4" />
+
+    <!-- Middle Ring (Radius 48) -->
+    <path d="M 100.0 52.0 A 48 48 0 0 0 65.5 66.7" stroke="#F2F2ED" />
+    <path d="M 60.2 73.2 A 48 48 0 0 0 60.7 127.5" stroke="#F2F2ED" />
+    <path d="M 73.2 139.8 A 48 48 0 0 0 131.5 136.3" stroke="#F2F2ED" />
+    <path d="M 137.8 129.6 A 48 48 0 0 0 147.0 110.0" stroke="#F2F2ED" />
+    <path d="M 147.0 90.0 A 48 48 0 0 0 138.3 71.1" stroke="#1CC8B4" />
+    <path d="M 128.9 61.7 A 48 48 0 0 0 105.0 52.3" stroke="#1CC8B4" />
+  </g>
+
+  <!-- Primary Control-Plane Dispatch Vector -->
+  <line x1="100" y1="100" x2="152.3" y2="47.7" stroke="#1CC8B4" stroke-width="9" stroke-linecap="round" />
+
+  <!-- Secondary Worker & Dependency Edges -->
+  <g stroke="#1CC8B4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 174.0 100.0 A 74 74 0 0 0 152.3 47.7" />
+    <line x1="136" y1="100" x2="174" y2="100" />
+  </g>
+
+  <g fill="#1CC8B4">
+    <circle cx="100" cy="100" r="10" />
+    <circle cx="152.3" cy="47.7" r="9.5" />
+    <circle cx="174" cy="100" r="9" />
+    <circle cx="136" cy="100" r="8.5" />
+    <circle cx="100" cy="174" r="9" />
+  </g>
+
+  <!-- Trigger Vector & Node -->
+  <line x1="39.2" y1="160.8" x2="74.5" y2="125.5" stroke="#F2F2ED" stroke-width="8" stroke-linecap="butt" />
+  <circle cx="74.5" cy="125.5" r="8.5" fill="#F2F2ED" />
+</svg>

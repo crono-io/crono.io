@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none" role="img" aria-label="Crono Logo Mark">
+  <g stroke-width="9" stroke-linecap="butt">
+    <!-- Outer Ring (Radius 76) -->
+    <path d="M 100.0 24.0 A 76 76 0 0 0 24.0 102.7" stroke="var(--crono-primary, #F2F2ED)" />
+    <path d="M 25.9 117.1 A 76 76 0 0 0 39.3 145.7" stroke="var(--crono-accent, #1CC8B4)" />
+    <path d="M 54.3 160.7 A 76 76 0 0 0 85.5 174.6" stroke="var(--crono-accent, #1CC8B4)" />
+    <path d="M 114.5 174.6 A 76 76 0 0 0 174.1 117.1" stroke="var(--crono-accent, #1CC8B4)" />
+
+    <!-- Middle Ring (Radius 54) -->
+    <path d="M 100.0 46.0 A 54 54 0 0 0 62.5 61.2" stroke="var(--crono-primary, #F2F2ED)" />
+    <path d="M 58.0 66.0 A 54 54 0 0 0 55.8 131.0" stroke="var(--crono-primary, #F2F2ED)" />
+    <path d="M 69.8 144.8 A 54 54 0 0 0 135.4 140.8" stroke="var(--crono-primary, #F2F2ED)" />
+    <path d="M 142.6 133.2 A 54 54 0 0 0 152.8 111.2" stroke="var(--crono-primary, #F2F2ED)" />
+    <path d="M 152.8 88.8 A 54 54 0 0 0 143.1 67.5" stroke="var(--crono-accent, #1CC8B4)" />
+    <path d="M 132.5 56.9 A 54 54 0 0 0 105.6 46.3" stroke="var(--crono-accent, #1CC8B4)" />
+
+    <!-- Inner Ring (Radius 32) -->
+    <path d="M 100.0 68.0 A 32 32 0 0 0 71.2 114.0" stroke="var(--crono-accent, #1CC8B4)" />
+    <path d="M 85.0 128.3 A 32 32 0 0 0 121.4 123.8" stroke="var(--crono-accent, #1CC8B4)" />
+  </g>
+
+  <!-- Teal Orchestration Graph: Primary Control-Plane Dispatch Vector -->
+  <line x1="100" y1="100" x2="153.7" y2="46.3" stroke="var(--crono-accent, #1CC8B4)" stroke-width="6.5" stroke-linecap="round" />
+
+  <!-- Teal Orchestration Graph: Secondary Worker & Dependency Edges -->
+  <g stroke="var(--crono-accent, #1CC8B4)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 176.0 100.0 A 76 76 0 0 0 153.7 46.3" />
+    <line x1="132" y1="100" x2="176" y2="100" />
+  </g>
+
+  <g fill="var(--crono-accent, #1CC8B4)">
+    <circle cx="100" cy="100" r="7.5" />
+    <circle cx="153.7" cy="46.3" r="7.5" />
+    <circle cx="176" cy="100" r="7" />
+    <circle cx="132" cy="100" r="7" />
+    <circle cx="100" cy="176" r="7" />
+  </g>
+
+  <!-- Trigger Vector & Node -->
+  <line x1="37.8" y1="162.2" x2="73.1" y2="126.9" stroke="var(--crono-primary, #F2F2ED)" stroke-width="5.5" stroke-linecap="butt" />
+  <circle cx="73.1" cy="126.9" r="6.5" fill="var(--crono-primary, #F2F2ED)" />
+</svg>

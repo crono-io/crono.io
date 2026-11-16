@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562 200" width="562" height="200" fill="none" role="img" aria-label="crono">
+  <!-- Icon Mark -->
+  <g transform="translate(10, 0)">
+    <g stroke-width="9" stroke-linecap="butt">
+      <!-- Outer Ring (Radius 76) -->
+      <path d="M 100.0 24.0 A 76 76 0 0 0 24.0 102.7" stroke="var(--crono-primary, #F2F2ED)" />
+      <path d="M 25.9 117.1 A 76 76 0 0 0 39.3 145.7" stroke="var(--crono-accent, #1CC8B4)" />
+      <path d="M 54.3 160.7 A 76 76 0 0 0 85.5 174.6" stroke="var(--crono-accent, #1CC8B4)" />
+      <path d="M 114.5 174.6 A 76 76 0 0 0 174.1 117.1" stroke="var(--crono-accent, #1CC8B4)" />
+
+      <!-- Middle Ring (Radius 54) -->
+      <path d="M 100.0 46.0 A 54 54 0 0 0 62.5 61.2" stroke="var(--crono-primary, #F2F2ED)" />
+      <path d="M 58.0 66.0 A 54 54 0 0 0 55.8 131.0" stroke="var(--crono-primary, #F2F2ED)" />
+      <path d="M 69.8 144.8 A 54 54 0 0 0 135.4 140.8" stroke="var(--crono-primary, #F2F2ED)" />
+      <path d="M 142.6 133.2 A 54 54 0 0 0 152.8 111.2" stroke="var(--crono-primary, #F2F2ED)" />
+      <path d="M 152.8 88.8 A 54 54 0 0 0 143.1 67.5" stroke="var(--crono-accent, #1CC8B4)" />
+      <path d="M 132.5 56.9 A 54 54 0 0 0 105.6 46.3" stroke="var(--crono-accent, #1CC8B4)" />
+
+      <!-- Inner Ring (Radius 32) -->
+      <path d="M 100.0 68.0 A 32 32 0 0 0 71.2 114.0" stroke="var(--crono-accent, #1CC8B4)" />
+      <path d="M 85.0 128.3 A 32 32 0 0 0 121.4 123.8" stroke="var(--crono-accent, #1CC8B4)" />
+    </g>
+
+    <!-- Primary Control-Plane Dispatch Vector -->
+    <line x1="100" y1="100" x2="153.7" y2="46.3" stroke="var(--crono-accent, #1CC8B4)" stroke-width="6.5" stroke-linecap="round" />
+
+    <!-- Secondary Worker & Dependency Edges -->
+    <g stroke="var(--crono-accent, #1CC8B4)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 176.0 100.0 A 76 76 0 0 0 153.7 46.3" />
+      <line x1="132" y1="100" x2="176" y2="100" />
+    </g>
+
+    <g fill="var(--crono-accent, #1CC8B4)">
+      <circle cx="100" cy="100" r="7.5" />
+      <circle cx="153.7" cy="46.3" r="7.5" />
+      <circle cx="176" cy="100" r="7" />
+      <circle cx="132" cy="100" r="7" />
+      <circle cx="100" cy="176" r="7" />
+    </g>
+
+    <line x1="37.8" y1="162.2" x2="73.1" y2="126.9" stroke="var(--crono-primary, #F2F2ED)" stroke-width="5.5" stroke-linecap="butt" />
+    <circle cx="73.1" cy="126.9" r="6.5" fill="var(--crono-primary, #F2F2ED)" />
+  </g>
+
+  <!-- Geometric Wordmark (optically centered on y=100, aligned with 3 o'clock node) -->
+  <g>
+    <path d="M 273.31 83.84 A 24.5 26.25 0 1 0 273.31 116.16" stroke="var(--crono-primary, #F2F2ED)" stroke-width="11.5" stroke-linecap="butt" fill="none" />
+    <path fill="var(--crono-primary, #F2F2ED)" d="
+      M 297.0 69
+      L 308.2 69
+      L 308.2 77
+      C 310.8 71.2, 316.5 68, 324.5 68
+      C 327.5 68, 330.0 68.5, 332.0 69.3
+      L 329.5 80.2
+      C 327.5 79.4, 325.2 79, 322.5 79
+      C 314.2 79, 308.5 85, 308.5 95.5
+      L 308.5 131.5
+      L 297.0 131.5
+      Z" />
+    <path fill="var(--crono-primary, #F2F2ED)" fill-rule="evenodd" d="
+      M 370.0 68.0
+      A 30.5 32.0 0 1 1 370.0 132.0
+      A 30.5 32.0 0 1 1 370.0 68.0
+      Z
+      M 370.0 79.5
+      A 19.0 20.5 0 1 0 370.0 120.5
+      A 19.0 20.5 0 1 0 370.0 79.5
+      Z" />
+    <path fill="var(--crono-primary, #F2F2ED)" d="
+      M 417.5 69
+      L 428.7 69
+      L 428.7 77
+      C 432.5 70.8, 439.7 68, 448.0 68
+      C 462.3 68, 471.5 77.2, 471.5 92.8
+      L 471.5 131.5
+      L 460.0 131.5
+      L 460.0 94.5
+      C 460.0 83.8, 454.0 78.5, 445.0 78.5
+      C 435.7 78.5, 429.0 84.8, 429.0 95.5
+      L 429.0 131.5
+      L 417.5 131.5
+      Z" />
+    <path fill="var(--crono-primary, #F2F2ED)" fill-rule="evenodd" d="
+      M 518.5 68.0
+      A 30.5 32.0 0 1 1 518.5 132.0
+      A 30.5 32.0 0 1 1 518.5 68.0
+      Z
+      M 518.5 79.5
+      A 19.0 20.5 0 1 0 518.5 120.5
+      A 19.0 20.5 0 1 0 518.5 79.5
+      Z" />
+  </g>
+</svg>
